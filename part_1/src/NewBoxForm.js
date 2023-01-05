@@ -26,7 +26,7 @@ return (
     <div>
         <form onSubmit={getInputs}>
             <div>
-            <lable htmlFor="backgroundcolor">Background Color</lable>
+            <label htmlFor="backgroundcolor">Background Color</label>
                 <input
                 id="backgroundcolor"
                 type="text"
@@ -36,7 +36,7 @@ return (
             />
             </div>
             <div>
-            <lable htmlFor="height">Height</lable>
+            <label htmlFor="height">Height</label>
                 <input
                 id="height"
                 type="text"
@@ -46,7 +46,7 @@ return (
             />
             </div>
             <div>
-            <lable htmlFor="width">Width</lable>
+            <label htmlFor="width">Width</label>
                 <input
                 id="width"
                 type="text"
